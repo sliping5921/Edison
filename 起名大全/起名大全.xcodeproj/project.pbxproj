@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		80E449D7265E2ED90013F216 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E449D6265E2ED90013F216 /* AppDelegate.m */; };
-		80E449DD265E2ED90013F216 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E449DC265E2ED90013F216 /* ViewController.m */; };
 		80E449E0265E2ED90013F216 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E449DE265E2ED90013F216 /* Main.storyboard */; };
 		80E449E2265E2EDC0013F216 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E449E1265E2EDC0013F216 /* Assets.xcassets */; };
 		80E449E5265E2EDC0013F216 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E449E3265E2EDC0013F216 /* LaunchScreen.storyboard */; };
@@ -78,6 +77,12 @@
 		80E44AE3265E37590013F216 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44AC5265E37590013F216 /* UIView+WebCacheOperation.m */; };
 		80E44AE4265E37590013F216 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44AC9265E37590013F216 /* UIButton+WebCache.m */; };
 		80E44AEB265E37990013F216 /* FileManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 80E44AEA265E37990013F216 /* FileManager.mm */; };
+		80E44AFB265E39F10013F216 /* Edi_Tablebar.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44AFA265E39F10013F216 /* Edi_Tablebar.m */; };
+		80E44B0C265E3C320013F216 /* Edi_QmVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44B0B265E3C320013F216 /* Edi_QmVC.m */; };
+		80E44B16265E3C3E0013F216 /* Edi_JmVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44B15265E3C3E0013F216 /* Edi_JmVC.m */; };
+		80E44B1C265E3C470013F216 /* Edi_FxVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44B1B265E3C470013F216 /* Edi_FxVC.m */; };
+		80E44B22265E3C500013F216 /* Edi_WdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44B21265E3C500013F216 /* Edi_WdVC.m */; };
+		80E44B28265E3CD90013F216 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E44B27265E3CD50013F216 /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,8 +106,6 @@
 		80E449D2265E2ED90013F216 /* 起名大全.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "起名大全.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E449D5265E2ED90013F216 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		80E449D6265E2ED90013F216 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		80E449DB265E2ED90013F216 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		80E449DC265E2ED90013F216 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		80E449DF265E2ED90013F216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80E449E1265E2EDC0013F216 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80E449E4265E2EDC0013F216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -248,6 +251,18 @@
 		80E44ACA265E37590013F216 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
 		80E44AE9265E37990013F216 /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
 		80E44AEA265E37990013F216 /* FileManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FileManager.mm; sourceTree = "<group>"; };
+		80E44AF9265E39F10013F216 /* Edi_Tablebar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Edi_Tablebar.h; sourceTree = "<group>"; };
+		80E44AFA265E39F10013F216 /* Edi_Tablebar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Edi_Tablebar.m; sourceTree = "<group>"; };
+		80E44AFF265E3A6A0013F216 /* Edi.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Edi.pch; sourceTree = "<group>"; };
+		80E44B0A265E3C320013F216 /* Edi_QmVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Edi_QmVC.h; sourceTree = "<group>"; };
+		80E44B0B265E3C320013F216 /* Edi_QmVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Edi_QmVC.m; sourceTree = "<group>"; };
+		80E44B14265E3C3E0013F216 /* Edi_JmVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Edi_JmVC.h; sourceTree = "<group>"; };
+		80E44B15265E3C3E0013F216 /* Edi_JmVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Edi_JmVC.m; sourceTree = "<group>"; };
+		80E44B1A265E3C470013F216 /* Edi_FxVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Edi_FxVC.h; sourceTree = "<group>"; };
+		80E44B1B265E3C470013F216 /* Edi_FxVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Edi_FxVC.m; sourceTree = "<group>"; };
+		80E44B20265E3C500013F216 /* Edi_WdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Edi_WdVC.h; sourceTree = "<group>"; };
+		80E44B21265E3C500013F216 /* Edi_WdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Edi_WdVC.m; sourceTree = "<group>"; };
+		80E44B27265E3CD50013F216 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -255,6 +270,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80E44B28265E3CD90013F216 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +298,7 @@
 				80E449F0265E2EDC0013F216 /* 起名大全Tests */,
 				80E449FB265E2EDC0013F216 /* 起名大全UITests */,
 				80E449D3265E2ED90013F216 /* Products */,
+				80E44B26265E3CD40013F216 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -298,11 +315,15 @@
 		80E449D4265E2ED90013F216 /* 起名大全 */ = {
 			isa = PBXGroup;
 			children = (
+				80E44B09265E3C1B0013F216 /* Edi_Wd */,
+				80E44B08265E3C160013F216 /* Edi_Fx */,
+				80E44B07265E3C110013F216 /* Edi_Jm */,
+				80E44B06265E3C010013F216 /* Edi_Qm */,
+				80E44AF2265E39370013F216 /* Edi_Tablebar */,
 				80E44A16265E36E20013F216 /* Edi_Ku */,
+				80E44AFF265E3A6A0013F216 /* Edi.pch */,
 				80E449D5265E2ED90013F216 /* AppDelegate.h */,
 				80E449D6265E2ED90013F216 /* AppDelegate.m */,
-				80E449DB265E2ED90013F216 /* ViewController.h */,
-				80E449DC265E2ED90013F216 /* ViewController.m */,
 				80E449DE265E2ED90013F216 /* Main.storyboard */,
 				80E449E1265E2EDC0013F216 /* Assets.xcassets */,
 				80E449E3265E2EDC0013F216 /* LaunchScreen.storyboard */,
@@ -527,6 +548,59 @@
 			path = FileMannger;
 			sourceTree = "<group>";
 		};
+		80E44AF2265E39370013F216 /* Edi_Tablebar */ = {
+			isa = PBXGroup;
+			children = (
+				80E44AF9265E39F10013F216 /* Edi_Tablebar.h */,
+				80E44AFA265E39F10013F216 /* Edi_Tablebar.m */,
+			);
+			path = Edi_Tablebar;
+			sourceTree = "<group>";
+		};
+		80E44B06265E3C010013F216 /* Edi_Qm */ = {
+			isa = PBXGroup;
+			children = (
+				80E44B0A265E3C320013F216 /* Edi_QmVC.h */,
+				80E44B0B265E3C320013F216 /* Edi_QmVC.m */,
+			);
+			path = Edi_Qm;
+			sourceTree = "<group>";
+		};
+		80E44B07265E3C110013F216 /* Edi_Jm */ = {
+			isa = PBXGroup;
+			children = (
+				80E44B14265E3C3E0013F216 /* Edi_JmVC.h */,
+				80E44B15265E3C3E0013F216 /* Edi_JmVC.m */,
+			);
+			path = Edi_Jm;
+			sourceTree = "<group>";
+		};
+		80E44B08265E3C160013F216 /* Edi_Fx */ = {
+			isa = PBXGroup;
+			children = (
+				80E44B1A265E3C470013F216 /* Edi_FxVC.h */,
+				80E44B1B265E3C470013F216 /* Edi_FxVC.m */,
+			);
+			path = Edi_Fx;
+			sourceTree = "<group>";
+		};
+		80E44B09265E3C1B0013F216 /* Edi_Wd */ = {
+			isa = PBXGroup;
+			children = (
+				80E44B20265E3C500013F216 /* Edi_WdVC.h */,
+				80E44B21265E3C500013F216 /* Edi_WdVC.m */,
+			);
+			path = Edi_Wd;
+			sourceTree = "<group>";
+		};
+		80E44B26265E3CD40013F216 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80E44B27265E3CD50013F216 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -670,6 +744,7 @@
 				80E44A4E265E373A0013F216 /* UIImage+CYLTabBarControllerExtention.m in Sources */,
 				80E44A81265E37520013F216 /* NSObject+EasyKVO.m in Sources */,
 				80E44AD2265E37590013F216 /* MASConstraint.m in Sources */,
+				80E44B1C265E3C470013F216 /* Edi_FxVC.m in Sources */,
 				80E44ADD265E37590013F216 /* SDWebImageCompat.m in Sources */,
 				80E44AE2265E37590013F216 /* UIImageView+WebCache.m in Sources */,
 				80E44ADA265E37590013F216 /* SDWebImageDownloader.m in Sources */,
@@ -678,7 +753,6 @@
 				80E44AD1265E37590013F216 /* View+MASAdditions.m in Sources */,
 				80E44A50265E373A0013F216 /* CYLBaseViewController.m in Sources */,
 				80E44AD5265E37590013F216 /* UIImage+WebP.m in Sources */,
-				80E449DD265E2ED90013F216 /* ViewController.m in Sources */,
 				80E44A8B265E37520013F216 /* EasyNavigationView+Scroll.m in Sources */,
 				80E44A80265E37520013F216 /* UITableViewController+EasyNavigationExt.m in Sources */,
 				80E449D7265E2ED90013F216 /* AppDelegate.m in Sources */,
@@ -694,10 +768,12 @@
 				80E44A48265E373A0013F216 /* UITabBarItem+CYLBadgeExtention.m in Sources */,
 				80E44AEB265E37990013F216 /* FileManager.mm in Sources */,
 				80E44A41265E373A0013F216 /* CYLBaseTableViewController.m in Sources */,
+				80E44B22265E3C500013F216 /* Edi_WdVC.m in Sources */,
 				80E44A7C265E37520013F216 /* EasyNavigationController.m in Sources */,
 				80E44AE4265E37590013F216 /* UIButton+WebCache.m in Sources */,
 				80E44A51265E373A0013F216 /* UIControl+CYLTabBarControllerExtention.m in Sources */,
 				80E44A83265E37520013F216 /* UIView+EasyNavigationExt.m in Sources */,
+				80E44AFB265E39F10013F216 /* Edi_Tablebar.m in Sources */,
 				80E44ADB265E37590013F216 /* UIImage+GIF.m in Sources */,
 				80E44A4D265E373A0013F216 /* CYLPlusButton.m in Sources */,
 				80E449E8265E2EDC0013F216 /* main.m in Sources */,
@@ -706,10 +782,12 @@
 				80E44A85265E37520013F216 /* UIViewController+EasyNavigationExt.m in Sources */,
 				80E44ACC265E37590013F216 /* ViewController+MASAdditions.m in Sources */,
 				80E44ACB265E37590013F216 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				80E44B16265E3C3E0013F216 /* Edi_JmVC.m in Sources */,
 				80E44A49265E373A0013F216 /* UIView+CYLBadgeExtention.m in Sources */,
 				80E44A7E265E37520013F216 /* EasyNavigationScroll.m in Sources */,
 				80E44A4C265E373A0013F216 /* CYLTabBar.m in Sources */,
 				80E44A46265E373A0013F216 /* CYLTabBarController.m in Sources */,
+				80E44B0C265E3C320013F216 /* Edi_QmVC.m in Sources */,
 				80E44A8A265E37520013F216 /* EasyNavigationButton.m in Sources */,
 				80E44AE3265E37590013F216 /* UIView+WebCacheOperation.m in Sources */,
 				80E44A4A265E373A0013F216 /* CAAnimation+CYLBadgeExtention.m in Sources */,
@@ -894,6 +972,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/起名大全/Edi.pch";
 				INFOPLIST_FILE = "起名大全/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -912,6 +991,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/起名大全/Edi.pch";
 				INFOPLIST_FILE = "起名大全/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (

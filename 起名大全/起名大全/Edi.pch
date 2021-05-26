@@ -1,0 +1,46 @@
+//
+//  Edi.pch
+//  起名大全
+//
+//  Created by 陈晓宇 on 2021/5/26.
+//
+
+#ifndef Edi_pch
+#define Edi_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "Masonry.h"
+#import "UIImageView+WebCache.h"
+#import "FileManager.h"
+#import "EasyNavigation.h"
+#import "CYLTabBarController.h"
+
+
+
+#define WIDTH SCREEN_WIDTH/374
+#define HEIGHT SCREEN_HEIGHT/680
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+
+
+
+
+#define NAVCOLOR [UIColor colorWithRed:255.0/255.0 green:255.0/255.0 blue:255.0/255.0 alpha:1.0]
+#define TABCOLOR [UIColor colorWithRed:47.0/255.0 green:167.0/255.0 blue:208.0/255.0 alpha:1.0]
+#define TABH CYLTabBarHeight
+#define NAVH self.navigationView.Easy_height
+#define BLACK [UIColor blackColor]
+#define WHITE [UIColor whiteColor]
+#define CLEAR [UIColor clearColor]
+
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+
+#define cFont(s) [UIFont fontWithName:@"Helvetica-Light" size:(s)]
+#define cFontB(s) [UIFont fontWithName:@"Helvetica-Bold" size:(s)]
+#define cImage(p) [UIImage imageNamed:p]
+
+
+
+#endif /* Edi_pch */
