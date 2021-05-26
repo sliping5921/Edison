@@ -15,6 +15,69 @@
 		80E449E8265E2EDC0013F216 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E449E7265E2EDC0013F216 /* main.m */; };
 		80E449F2265E2EDC0013F216 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E449F1265E2EDC0013F216 /* ____Tests.m */; };
 		80E449FD265E2EDC0013F216 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E449FC265E2EDC0013F216 /* ____UITests.m */; };
+		80E44A40265E373A0013F216 /* UIBarButtonItem+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A18265E373A0013F216 /* UIBarButtonItem+CYLBadgeExtention.m */; };
+		80E44A41265E373A0013F216 /* CYLBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A19265E373A0013F216 /* CYLBaseTableViewController.m */; };
+		80E44A42265E373A0013F216 /* UIColor+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A1C265E373A0013F216 /* UIColor+CYLTabBarControllerExtention.m */; };
+		80E44A43265E373A0013F216 /* UIView+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A23265E373A0013F216 /* UIView+CYLTabBarControllerExtention.m */; };
+		80E44A44265E373A0013F216 /* NSObject+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A24265E373A0013F216 /* NSObject+CYLTabBarControllerExtention.m */; };
+		80E44A45265E373A0013F216 /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A26265E373A0013F216 /* UITabBarItem+CYLTabBarControllerExtention.m */; };
+		80E44A46265E373A0013F216 /* CYLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A29265E373A0013F216 /* CYLTabBarController.m */; };
+		80E44A47265E373A0013F216 /* CYLBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A2A265E373A0013F216 /* CYLBaseNavigationController.m */; };
+		80E44A48265E373A0013F216 /* UITabBarItem+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A2C265E373A0013F216 /* UITabBarItem+CYLBadgeExtention.m */; };
+		80E44A49265E373A0013F216 /* UIView+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A2F265E373A0013F216 /* UIView+CYLBadgeExtention.m */; };
+		80E44A4A265E373A0013F216 /* CAAnimation+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A30265E373A0013F216 /* CAAnimation+CYLBadgeExtention.m */; };
+		80E44A4B265E373A0013F216 /* CYLTabBar+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A31265E373A0013F216 /* CYLTabBar+CYLTabBarControllerExtention.m */; };
+		80E44A4C265E373A0013F216 /* CYLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A32265E373A0013F216 /* CYLTabBar.m */; };
+		80E44A4D265E373A0013F216 /* CYLPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A33265E373A0013F216 /* CYLPlusButton.m */; };
+		80E44A4E265E373A0013F216 /* UIImage+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A35265E373A0013F216 /* UIImage+CYLTabBarControllerExtention.m */; };
+		80E44A4F265E373A0013F216 /* UIViewController+CYLNavigationControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A36265E373A0013F216 /* UIViewController+CYLNavigationControllerExtention.m */; };
+		80E44A50265E373A0013F216 /* CYLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A38265E373A0013F216 /* CYLBaseViewController.m */; };
+		80E44A51265E373A0013F216 /* UIControl+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A3B265E373A0013F216 /* UIControl+CYLTabBarControllerExtention.m */; };
+		80E44A52265E373A0013F216 /* UIViewController+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A3D265E373A0013F216 /* UIViewController+CYLTabBarControllerExtention.m */; };
+		80E44A7B265E37520013F216 /* EasyNavigationView+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A57265E37520013F216 /* EasyNavigationView+Add.m */; };
+		80E44A7C265E37520013F216 /* EasyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A58265E37520013F216 /* EasyNavigationController.m */; };
+		80E44A7D265E37520013F216 /* EasyNavigationOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A5A265E37520013F216 /* EasyNavigationOptions.m */; };
+		80E44A7E265E37520013F216 /* EasyNavigationScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A5B265E37520013F216 /* EasyNavigationScroll.m */; };
+		80E44A7F265E37520013F216 /* EasyNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A5C265E37520013F216 /* EasyNavigationView.m */; };
+		80E44A80265E37520013F216 /* UITableViewController+EasyNavigationExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A60265E37520013F216 /* UITableViewController+EasyNavigationExt.m */; };
+		80E44A81265E37520013F216 /* NSObject+EasyKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A61265E37520013F216 /* NSObject+EasyKVO.m */; };
+		80E44A82265E37520013F216 /* EasyKVOInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A63265E37520013F216 /* EasyKVOInfo.m */; };
+		80E44A83265E37520013F216 /* UIView+EasyNavigationExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A64265E37520013F216 /* UIView+EasyNavigationExt.m */; };
+		80E44A84265E37520013F216 /* UIScrollView+EasyNavigationExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A67265E37520013F216 /* UIScrollView+EasyNavigationExt.m */; };
+		80E44A85265E37520013F216 /* UIViewController+EasyNavigationExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A6B265E37520013F216 /* UIViewController+EasyNavigationExt.m */; };
+		80E44A86265E37520013F216 /* EasyNavigationUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A6C265E37520013F216 /* EasyNavigationUtils.m */; };
+		80E44A87265E37520013F216 /* EasyNavigationView+LeftButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A6F265E37520013F216 /* EasyNavigationView+LeftButton.m */; };
+		80E44A88265E37520013F216 /* EasyNavigationView+RightButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A70265E37520013F216 /* EasyNavigationView+RightButton.m */; };
+		80E44A89265E37520013F216 /* EasyNavButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 80E44A71265E37520013F216 /* EasyNavButton.bundle */; };
+		80E44A8A265E37520013F216 /* EasyNavigationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A75265E37520013F216 /* EasyNavigationButton.m */; };
+		80E44A8B265E37520013F216 /* EasyNavigationView+Scroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A78265E37520013F216 /* EasyNavigationView+Scroll.m */; };
+		80E44ACB265E37590013F216 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A91265E37590013F216 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		80E44ACC265E37590013F216 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A9A265E37590013F216 /* ViewController+MASAdditions.m */; };
+		80E44ACD265E37590013F216 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A9E265E37590013F216 /* MASCompositeConstraint.m */; };
+		80E44ACE265E37590013F216 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44A9F265E37590013F216 /* MASConstraintMaker.m */; };
+		80E44ACF265E37590013F216 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44AA0265E37590013F216 /* MASLayoutConstraint.m */; };
+		80E44AD0265E37590013F216 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44AA1265E37590013F216 /* NSArray+MASAdditions.m */; };
+		80E44AD1265E37590013F216 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44AA2265E37590013F216 /* View+MASAdditions.m */; };
+		80E44AD2265E37590013F216 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44AA5265E37590013F216 /* MASConstraint.m */; };
+		80E44AD3265E37590013F216 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44AA7265E37590013F216 /* MASViewConstraint.m */; };
+		80E44AD4265E37590013F216 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44AA8265E37590013F216 /* MASViewAttribute.m */; };
+		80E44AD5265E37590013F216 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44AAA265E37590013F216 /* UIImage+WebP.m */; };
+		80E44AD6265E37590013F216 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44AAB265E37590013F216 /* MKAnnotationView+WebCache.m */; };
+		80E44AD7265E37590013F216 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44AAE265E37590013F216 /* SDWebImageManager.m */; };
+		80E44AD8265E37590013F216 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44AAF265E37590013F216 /* SDWebImageDecoder.m */; };
+		80E44AD9265E37590013F216 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44AB1265E37590013F216 /* UIImageView+HighlightedWebCache.m */; };
+		80E44ADA265E37590013F216 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44AB3265E37590013F216 /* SDWebImageDownloader.m */; };
+		80E44ADB265E37590013F216 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44AB4265E37590013F216 /* UIImage+GIF.m */; };
+		80E44ADC265E37590013F216 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44AB6265E37590013F216 /* UIImage+MultiFormat.m */; };
+		80E44ADD265E37590013F216 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44AB7265E37590013F216 /* SDWebImageCompat.m */; };
+		80E44ADE265E37590013F216 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44AB8265E37590013F216 /* SDWebImagePrefetcher.m */; };
+		80E44ADF265E37590013F216 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44ABC265E37590013F216 /* SDImageCache.m */; };
+		80E44AE0265E37590013F216 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44ABE265E37590013F216 /* SDWebImageDownloaderOperation.m */; };
+		80E44AE1265E37590013F216 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44AC1265E37590013F216 /* NSData+ImageContentType.m */; };
+		80E44AE2265E37590013F216 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44AC2265E37590013F216 /* UIImageView+WebCache.m */; };
+		80E44AE3265E37590013F216 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44AC5265E37590013F216 /* UIView+WebCacheOperation.m */; };
+		80E44AE4265E37590013F216 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E44AC9265E37590013F216 /* UIButton+WebCache.m */; };
+		80E44AEB265E37990013F216 /* FileManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 80E44AEA265E37990013F216 /* FileManager.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +114,140 @@
 		80E449F8265E2EDC0013F216 /* 起名大全UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "起名大全UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E449FC265E2EDC0013F216 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		80E449FE265E2EDC0013F216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80E44A18265E373A0013F216 /* UIBarButtonItem+CYLBadgeExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		80E44A19265E373A0013F216 /* CYLBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLBaseTableViewController.m; sourceTree = "<group>"; };
+		80E44A1A265E373A0013F216 /* UITabBarItem+CYLBadgeExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+CYLBadgeExtention.h"; sourceTree = "<group>"; };
+		80E44A1B265E373A0013F216 /* UIImage+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		80E44A1C265E373A0013F216 /* UIColor+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		80E44A1D265E373A0013F216 /* CYLPlusButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLPlusButton.h; sourceTree = "<group>"; };
+		80E44A1E265E373A0013F216 /* CYLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBar.h; sourceTree = "<group>"; };
+		80E44A1F265E373A0013F216 /* CYLTabBar+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CYLTabBar+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		80E44A20265E373A0013F216 /* CAAnimation+CYLBadgeExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+CYLBadgeExtention.h"; sourceTree = "<group>"; };
+		80E44A21265E373A0013F216 /* UIView+CYLBadgeExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CYLBadgeExtention.h"; sourceTree = "<group>"; };
+		80E44A22265E373A0013F216 /* UIControl+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		80E44A23265E373A0013F216 /* UIView+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		80E44A24265E373A0013F216 /* NSObject+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		80E44A25265E373A0013F216 /* CYLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLBaseViewController.h; sourceTree = "<group>"; };
+		80E44A26265E373A0013F216 /* UITabBarItem+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		80E44A27265E373A0013F216 /* CYLConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLConstants.h; sourceTree = "<group>"; };
+		80E44A28265E373A0013F216 /* UIViewController+CYLNavigationControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CYLNavigationControllerExtention.h"; sourceTree = "<group>"; };
+		80E44A29265E373A0013F216 /* CYLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBarController.m; sourceTree = "<group>"; };
+		80E44A2A265E373A0013F216 /* CYLBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLBaseNavigationController.m; sourceTree = "<group>"; };
+		80E44A2B265E373A0013F216 /* UIViewController+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		80E44A2C265E373A0013F216 /* UITabBarItem+CYLBadgeExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		80E44A2D265E373A0013F216 /* CYLBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLBaseTableViewController.h; sourceTree = "<group>"; };
+		80E44A2E265E373A0013F216 /* UIBarButtonItem+CYLBadgeExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CYLBadgeExtention.h"; sourceTree = "<group>"; };
+		80E44A2F265E373A0013F216 /* UIView+CYLBadgeExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		80E44A30265E373A0013F216 /* CAAnimation+CYLBadgeExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		80E44A31265E373A0013F216 /* CYLTabBar+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CYLTabBar+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		80E44A32265E373A0013F216 /* CYLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLTabBar.m; sourceTree = "<group>"; };
+		80E44A33265E373A0013F216 /* CYLPlusButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLPlusButton.m; sourceTree = "<group>"; };
+		80E44A34265E373A0013F216 /* UIColor+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		80E44A35265E373A0013F216 /* UIImage+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		80E44A36265E373A0013F216 /* UIViewController+CYLNavigationControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CYLNavigationControllerExtention.m"; sourceTree = "<group>"; };
+		80E44A37265E373A0013F216 /* UITabBarItem+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		80E44A38265E373A0013F216 /* CYLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYLBaseViewController.m; sourceTree = "<group>"; };
+		80E44A39265E373A0013F216 /* CYLBadgeProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLBadgeProtocol.h; sourceTree = "<group>"; };
+		80E44A3A265E373A0013F216 /* UIView+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		80E44A3B265E373A0013F216 /* UIControl+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		80E44A3C265E373A0013F216 /* NSObject+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		80E44A3D265E373A0013F216 /* UIViewController+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		80E44A3E265E373A0013F216 /* CYLBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLBaseNavigationController.h; sourceTree = "<group>"; };
+		80E44A3F265E373A0013F216 /* CYLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYLTabBarController.h; sourceTree = "<group>"; };
+		80E44A57265E37520013F216 /* EasyNavigationView+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EasyNavigationView+Add.m"; sourceTree = "<group>"; };
+		80E44A58265E37520013F216 /* EasyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNavigationController.m; sourceTree = "<group>"; };
+		80E44A59265E37520013F216 /* EasyNavigationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNavigationButton.h; sourceTree = "<group>"; };
+		80E44A5A265E37520013F216 /* EasyNavigationOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNavigationOptions.m; sourceTree = "<group>"; };
+		80E44A5B265E37520013F216 /* EasyNavigationScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNavigationScroll.m; sourceTree = "<group>"; };
+		80E44A5C265E37520013F216 /* EasyNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNavigationView.m; sourceTree = "<group>"; };
+		80E44A5D265E37520013F216 /* EasyNavigationView+Scroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EasyNavigationView+Scroll.h"; sourceTree = "<group>"; };
+		80E44A5E265E37520013F216 /* EasyNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNavigation.h; sourceTree = "<group>"; };
+		80E44A60265E37520013F216 /* UITableViewController+EasyNavigationExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewController+EasyNavigationExt.m"; sourceTree = "<group>"; };
+		80E44A61265E37520013F216 /* NSObject+EasyKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EasyKVO.m"; sourceTree = "<group>"; };
+		80E44A62265E37520013F216 /* UIScrollView+EasyNavigationExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EasyNavigationExt.h"; sourceTree = "<group>"; };
+		80E44A63265E37520013F216 /* EasyKVOInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyKVOInfo.m; sourceTree = "<group>"; };
+		80E44A64265E37520013F216 /* UIView+EasyNavigationExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EasyNavigationExt.m"; sourceTree = "<group>"; };
+		80E44A65265E37520013F216 /* UIViewController+EasyNavigationExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+EasyNavigationExt.h"; sourceTree = "<group>"; };
+		80E44A66265E37520013F216 /* EasyKVOInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyKVOInfo.h; sourceTree = "<group>"; };
+		80E44A67265E37520013F216 /* UIScrollView+EasyNavigationExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EasyNavigationExt.m"; sourceTree = "<group>"; };
+		80E44A68265E37520013F216 /* NSObject+EasyKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+EasyKVO.h"; sourceTree = "<group>"; };
+		80E44A69265E37520013F216 /* UITableViewController+EasyNavigationExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewController+EasyNavigationExt.h"; sourceTree = "<group>"; };
+		80E44A6A265E37520013F216 /* UIView+EasyNavigationExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EasyNavigationExt.h"; sourceTree = "<group>"; };
+		80E44A6B265E37520013F216 /* UIViewController+EasyNavigationExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+EasyNavigationExt.m"; sourceTree = "<group>"; };
+		80E44A6C265E37520013F216 /* EasyNavigationUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNavigationUtils.m; sourceTree = "<group>"; };
+		80E44A6E265E37520013F216 /* EasyNavigationView+RightButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EasyNavigationView+RightButton.h"; sourceTree = "<group>"; };
+		80E44A6F265E37520013F216 /* EasyNavigationView+LeftButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EasyNavigationView+LeftButton.m"; sourceTree = "<group>"; };
+		80E44A70265E37520013F216 /* EasyNavigationView+RightButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EasyNavigationView+RightButton.m"; sourceTree = "<group>"; };
+		80E44A71265E37520013F216 /* EasyNavButton.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = EasyNavButton.bundle; sourceTree = "<group>"; };
+		80E44A72265E37520013F216 /* EasyNavigationView+LeftButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EasyNavigationView+LeftButton.h"; sourceTree = "<group>"; };
+		80E44A73265E37520013F216 /* EasyNavigationScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNavigationScroll.h; sourceTree = "<group>"; };
+		80E44A74265E37520013F216 /* EasyNavigationOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNavigationOptions.h; sourceTree = "<group>"; };
+		80E44A75265E37520013F216 /* EasyNavigationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyNavigationButton.m; sourceTree = "<group>"; };
+		80E44A76265E37520013F216 /* EasyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNavigationController.h; sourceTree = "<group>"; };
+		80E44A77265E37520013F216 /* EasyNavigationView+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EasyNavigationView+Add.h"; sourceTree = "<group>"; };
+		80E44A78265E37520013F216 /* EasyNavigationView+Scroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EasyNavigationView+Scroll.m"; sourceTree = "<group>"; };
+		80E44A79265E37520013F216 /* EasyNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNavigationView.h; sourceTree = "<group>"; };
+		80E44A7A265E37520013F216 /* EasyNavigationUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyNavigationUtils.h; sourceTree = "<group>"; };
+		80E44A90265E37590013F216 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		80E44A91265E37590013F216 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		80E44A92265E37590013F216 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		80E44A93265E37590013F216 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		80E44A94265E37590013F216 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		80E44A95265E37590013F216 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		80E44A96265E37590013F216 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		80E44A97265E37590013F216 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		80E44A98265E37590013F216 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		80E44A99265E37590013F216 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		80E44A9A265E37590013F216 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		80E44A9B265E37590013F216 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		80E44A9C265E37590013F216 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		80E44A9D265E37590013F216 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		80E44A9E265E37590013F216 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		80E44A9F265E37590013F216 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		80E44AA0265E37590013F216 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		80E44AA1265E37590013F216 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		80E44AA2265E37590013F216 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		80E44AA3265E37590013F216 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		80E44AA4265E37590013F216 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		80E44AA5265E37590013F216 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		80E44AA6265E37590013F216 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		80E44AA7265E37590013F216 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		80E44AA8265E37590013F216 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		80E44AAA265E37590013F216 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		80E44AAB265E37590013F216 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		80E44AAC265E37590013F216 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		80E44AAD265E37590013F216 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		80E44AAE265E37590013F216 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		80E44AAF265E37590013F216 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		80E44AB0265E37590013F216 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		80E44AB1265E37590013F216 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		80E44AB2265E37590013F216 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		80E44AB3265E37590013F216 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		80E44AB4265E37590013F216 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		80E44AB5265E37590013F216 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		80E44AB6265E37590013F216 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		80E44AB7265E37590013F216 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		80E44AB8265E37590013F216 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		80E44AB9265E37590013F216 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		80E44ABA265E37590013F216 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		80E44ABB265E37590013F216 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		80E44ABC265E37590013F216 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		80E44ABD265E37590013F216 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		80E44ABE265E37590013F216 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		80E44ABF265E37590013F216 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		80E44AC0265E37590013F216 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		80E44AC1265E37590013F216 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		80E44AC2265E37590013F216 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		80E44AC3265E37590013F216 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		80E44AC4265E37590013F216 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		80E44AC5265E37590013F216 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		80E44AC6265E37590013F216 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		80E44AC7265E37590013F216 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		80E44AC8265E37590013F216 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		80E44AC9265E37590013F216 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		80E44ACA265E37590013F216 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		80E44AE9265E37990013F216 /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
+		80E44AEA265E37990013F216 /* FileManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FileManager.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +298,7 @@
 		80E449D4265E2ED90013F216 /* 起名大全 */ = {
 			isa = PBXGroup;
 			children = (
+				80E44A16265E36E20013F216 /* Edi_Ku */,
 				80E449D5265E2ED90013F216 /* AppDelegate.h */,
 				80E449D6265E2ED90013F216 /* AppDelegate.m */,
 				80E449DB265E2ED90013F216 /* ViewController.h */,
@@ -130,6 +328,203 @@
 				80E449FE265E2EDC0013F216 /* Info.plist */,
 			);
 			path = "起名大全UITests";
+			sourceTree = "<group>";
+		};
+		80E44A16265E36E20013F216 /* Edi_Ku */ = {
+			isa = PBXGroup;
+			children = (
+				80E44AE8265E37990013F216 /* FileMannger */,
+				80E44A8F265E37590013F216 /* Masonry */,
+				80E44AA9265E37590013F216 /* SDWebImage */,
+				80E44A56265E37520013F216 /* EasyNavigation */,
+				80E44A17265E373A0013F216 /* CYLTabBarController */,
+			);
+			path = Edi_Ku;
+			sourceTree = "<group>";
+		};
+		80E44A17265E373A0013F216 /* CYLTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				80E44A18265E373A0013F216 /* UIBarButtonItem+CYLBadgeExtention.m */,
+				80E44A19265E373A0013F216 /* CYLBaseTableViewController.m */,
+				80E44A1A265E373A0013F216 /* UITabBarItem+CYLBadgeExtention.h */,
+				80E44A1B265E373A0013F216 /* UIImage+CYLTabBarControllerExtention.h */,
+				80E44A1C265E373A0013F216 /* UIColor+CYLTabBarControllerExtention.m */,
+				80E44A1D265E373A0013F216 /* CYLPlusButton.h */,
+				80E44A1E265E373A0013F216 /* CYLTabBar.h */,
+				80E44A1F265E373A0013F216 /* CYLTabBar+CYLTabBarControllerExtention.h */,
+				80E44A20265E373A0013F216 /* CAAnimation+CYLBadgeExtention.h */,
+				80E44A21265E373A0013F216 /* UIView+CYLBadgeExtention.h */,
+				80E44A22265E373A0013F216 /* UIControl+CYLTabBarControllerExtention.h */,
+				80E44A23265E373A0013F216 /* UIView+CYLTabBarControllerExtention.m */,
+				80E44A24265E373A0013F216 /* NSObject+CYLTabBarControllerExtention.m */,
+				80E44A25265E373A0013F216 /* CYLBaseViewController.h */,
+				80E44A26265E373A0013F216 /* UITabBarItem+CYLTabBarControllerExtention.m */,
+				80E44A27265E373A0013F216 /* CYLConstants.h */,
+				80E44A28265E373A0013F216 /* UIViewController+CYLNavigationControllerExtention.h */,
+				80E44A29265E373A0013F216 /* CYLTabBarController.m */,
+				80E44A2A265E373A0013F216 /* CYLBaseNavigationController.m */,
+				80E44A2B265E373A0013F216 /* UIViewController+CYLTabBarControllerExtention.h */,
+				80E44A2C265E373A0013F216 /* UITabBarItem+CYLBadgeExtention.m */,
+				80E44A2D265E373A0013F216 /* CYLBaseTableViewController.h */,
+				80E44A2E265E373A0013F216 /* UIBarButtonItem+CYLBadgeExtention.h */,
+				80E44A2F265E373A0013F216 /* UIView+CYLBadgeExtention.m */,
+				80E44A30265E373A0013F216 /* CAAnimation+CYLBadgeExtention.m */,
+				80E44A31265E373A0013F216 /* CYLTabBar+CYLTabBarControllerExtention.m */,
+				80E44A32265E373A0013F216 /* CYLTabBar.m */,
+				80E44A33265E373A0013F216 /* CYLPlusButton.m */,
+				80E44A34265E373A0013F216 /* UIColor+CYLTabBarControllerExtention.h */,
+				80E44A35265E373A0013F216 /* UIImage+CYLTabBarControllerExtention.m */,
+				80E44A36265E373A0013F216 /* UIViewController+CYLNavigationControllerExtention.m */,
+				80E44A37265E373A0013F216 /* UITabBarItem+CYLTabBarControllerExtention.h */,
+				80E44A38265E373A0013F216 /* CYLBaseViewController.m */,
+				80E44A39265E373A0013F216 /* CYLBadgeProtocol.h */,
+				80E44A3A265E373A0013F216 /* UIView+CYLTabBarControllerExtention.h */,
+				80E44A3B265E373A0013F216 /* UIControl+CYLTabBarControllerExtention.m */,
+				80E44A3C265E373A0013F216 /* NSObject+CYLTabBarControllerExtention.h */,
+				80E44A3D265E373A0013F216 /* UIViewController+CYLTabBarControllerExtention.m */,
+				80E44A3E265E373A0013F216 /* CYLBaseNavigationController.h */,
+				80E44A3F265E373A0013F216 /* CYLTabBarController.h */,
+			);
+			path = CYLTabBarController;
+			sourceTree = "<group>";
+		};
+		80E44A56265E37520013F216 /* EasyNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				80E44A57265E37520013F216 /* EasyNavigationView+Add.m */,
+				80E44A58265E37520013F216 /* EasyNavigationController.m */,
+				80E44A59265E37520013F216 /* EasyNavigationButton.h */,
+				80E44A5A265E37520013F216 /* EasyNavigationOptions.m */,
+				80E44A5B265E37520013F216 /* EasyNavigationScroll.m */,
+				80E44A5C265E37520013F216 /* EasyNavigationView.m */,
+				80E44A5D265E37520013F216 /* EasyNavigationView+Scroll.h */,
+				80E44A5E265E37520013F216 /* EasyNavigation.h */,
+				80E44A5F265E37520013F216 /* EasyNavExt */,
+				80E44A6C265E37520013F216 /* EasyNavigationUtils.m */,
+				80E44A6D265E37520013F216 /* EasyNavButton */,
+				80E44A73265E37520013F216 /* EasyNavigationScroll.h */,
+				80E44A74265E37520013F216 /* EasyNavigationOptions.h */,
+				80E44A75265E37520013F216 /* EasyNavigationButton.m */,
+				80E44A76265E37520013F216 /* EasyNavigationController.h */,
+				80E44A77265E37520013F216 /* EasyNavigationView+Add.h */,
+				80E44A78265E37520013F216 /* EasyNavigationView+Scroll.m */,
+				80E44A79265E37520013F216 /* EasyNavigationView.h */,
+				80E44A7A265E37520013F216 /* EasyNavigationUtils.h */,
+			);
+			path = EasyNavigation;
+			sourceTree = "<group>";
+		};
+		80E44A5F265E37520013F216 /* EasyNavExt */ = {
+			isa = PBXGroup;
+			children = (
+				80E44A60265E37520013F216 /* UITableViewController+EasyNavigationExt.m */,
+				80E44A61265E37520013F216 /* NSObject+EasyKVO.m */,
+				80E44A62265E37520013F216 /* UIScrollView+EasyNavigationExt.h */,
+				80E44A63265E37520013F216 /* EasyKVOInfo.m */,
+				80E44A64265E37520013F216 /* UIView+EasyNavigationExt.m */,
+				80E44A65265E37520013F216 /* UIViewController+EasyNavigationExt.h */,
+				80E44A66265E37520013F216 /* EasyKVOInfo.h */,
+				80E44A67265E37520013F216 /* UIScrollView+EasyNavigationExt.m */,
+				80E44A68265E37520013F216 /* NSObject+EasyKVO.h */,
+				80E44A69265E37520013F216 /* UITableViewController+EasyNavigationExt.h */,
+				80E44A6A265E37520013F216 /* UIView+EasyNavigationExt.h */,
+				80E44A6B265E37520013F216 /* UIViewController+EasyNavigationExt.m */,
+			);
+			path = EasyNavExt;
+			sourceTree = "<group>";
+		};
+		80E44A6D265E37520013F216 /* EasyNavButton */ = {
+			isa = PBXGroup;
+			children = (
+				80E44A6E265E37520013F216 /* EasyNavigationView+RightButton.h */,
+				80E44A6F265E37520013F216 /* EasyNavigationView+LeftButton.m */,
+				80E44A70265E37520013F216 /* EasyNavigationView+RightButton.m */,
+				80E44A71265E37520013F216 /* EasyNavButton.bundle */,
+				80E44A72265E37520013F216 /* EasyNavigationView+LeftButton.h */,
+			);
+			path = EasyNavButton;
+			sourceTree = "<group>";
+		};
+		80E44A8F265E37590013F216 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				80E44A90265E37590013F216 /* MASCompositeConstraint.h */,
+				80E44A91265E37590013F216 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				80E44A92265E37590013F216 /* MASConstraint+Private.h */,
+				80E44A93265E37590013F216 /* MASLayoutConstraint.h */,
+				80E44A94265E37590013F216 /* NSArray+MASShorthandAdditions.h */,
+				80E44A95265E37590013F216 /* MASConstraintMaker.h */,
+				80E44A96265E37590013F216 /* View+MASAdditions.h */,
+				80E44A97265E37590013F216 /* NSArray+MASAdditions.h */,
+				80E44A98265E37590013F216 /* MASUtilities.h */,
+				80E44A99265E37590013F216 /* MASViewAttribute.h */,
+				80E44A9A265E37590013F216 /* ViewController+MASAdditions.m */,
+				80E44A9B265E37590013F216 /* MASViewConstraint.h */,
+				80E44A9C265E37590013F216 /* MASConstraint.h */,
+				80E44A9D265E37590013F216 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				80E44A9E265E37590013F216 /* MASCompositeConstraint.m */,
+				80E44A9F265E37590013F216 /* MASConstraintMaker.m */,
+				80E44AA0265E37590013F216 /* MASLayoutConstraint.m */,
+				80E44AA1265E37590013F216 /* NSArray+MASAdditions.m */,
+				80E44AA2265E37590013F216 /* View+MASAdditions.m */,
+				80E44AA3265E37590013F216 /* View+MASShorthandAdditions.h */,
+				80E44AA4265E37590013F216 /* Masonry.h */,
+				80E44AA5265E37590013F216 /* MASConstraint.m */,
+				80E44AA6265E37590013F216 /* ViewController+MASAdditions.h */,
+				80E44AA7265E37590013F216 /* MASViewConstraint.m */,
+				80E44AA8265E37590013F216 /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		80E44AA9265E37590013F216 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				80E44AAA265E37590013F216 /* UIImage+WebP.m */,
+				80E44AAB265E37590013F216 /* MKAnnotationView+WebCache.m */,
+				80E44AAC265E37590013F216 /* UIImageView+WebCache.h */,
+				80E44AAD265E37590013F216 /* NSData+ImageContentType.h */,
+				80E44AAE265E37590013F216 /* SDWebImageManager.m */,
+				80E44AAF265E37590013F216 /* SDWebImageDecoder.m */,
+				80E44AB0265E37590013F216 /* SDWebImageDownloaderOperation.h */,
+				80E44AB1265E37590013F216 /* UIImageView+HighlightedWebCache.m */,
+				80E44AB2265E37590013F216 /* SDImageCache.h */,
+				80E44AB3265E37590013F216 /* SDWebImageDownloader.m */,
+				80E44AB4265E37590013F216 /* UIImage+GIF.m */,
+				80E44AB5265E37590013F216 /* UIButton+WebCache.h */,
+				80E44AB6265E37590013F216 /* UIImage+MultiFormat.m */,
+				80E44AB7265E37590013F216 /* SDWebImageCompat.m */,
+				80E44AB8265E37590013F216 /* SDWebImagePrefetcher.m */,
+				80E44AB9265E37590013F216 /* UIView+WebCacheOperation.h */,
+				80E44ABA265E37590013F216 /* MKAnnotationView+WebCache.h */,
+				80E44ABB265E37590013F216 /* UIImage+WebP.h */,
+				80E44ABC265E37590013F216 /* SDImageCache.m */,
+				80E44ABD265E37590013F216 /* UIImageView+HighlightedWebCache.h */,
+				80E44ABE265E37590013F216 /* SDWebImageDownloaderOperation.m */,
+				80E44ABF265E37590013F216 /* SDWebImageDecoder.h */,
+				80E44AC0265E37590013F216 /* SDWebImageManager.h */,
+				80E44AC1265E37590013F216 /* NSData+ImageContentType.m */,
+				80E44AC2265E37590013F216 /* UIImageView+WebCache.m */,
+				80E44AC3265E37590013F216 /* SDWebImageOperation.h */,
+				80E44AC4265E37590013F216 /* SDWebImageDownloader.h */,
+				80E44AC5265E37590013F216 /* UIView+WebCacheOperation.m */,
+				80E44AC6265E37590013F216 /* SDWebImagePrefetcher.h */,
+				80E44AC7265E37590013F216 /* SDWebImageCompat.h */,
+				80E44AC8265E37590013F216 /* UIImage+MultiFormat.h */,
+				80E44AC9265E37590013F216 /* UIButton+WebCache.m */,
+				80E44ACA265E37590013F216 /* UIImage+GIF.h */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		80E44AE8265E37990013F216 /* FileMannger */ = {
+			isa = PBXGroup;
+			children = (
+				80E44AE9265E37990013F216 /* FileManager.h */,
+				80E44AEA265E37990013F216 /* FileManager.mm */,
+			);
+			path = FileMannger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +632,7 @@
 				80E449E5265E2EDC0013F216 /* LaunchScreen.storyboard in Resources */,
 				80E449E2265E2EDC0013F216 /* Assets.xcassets in Resources */,
 				80E449E0265E2ED90013F216 /* Main.storyboard in Resources */,
+				80E44A89265E37520013F216 /* EasyNavButton.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +657,71 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80E44AD8265E37590013F216 /* SDWebImageDecoder.m in Sources */,
+				80E44A4F265E373A0013F216 /* UIViewController+CYLNavigationControllerExtention.m in Sources */,
+				80E44A40265E373A0013F216 /* UIBarButtonItem+CYLBadgeExtention.m in Sources */,
+				80E44ADE265E37590013F216 /* SDWebImagePrefetcher.m in Sources */,
+				80E44AE1265E37590013F216 /* NSData+ImageContentType.m in Sources */,
+				80E44A84265E37520013F216 /* UIScrollView+EasyNavigationExt.m in Sources */,
+				80E44AD7265E37590013F216 /* SDWebImageManager.m in Sources */,
+				80E44AE0265E37590013F216 /* SDWebImageDownloaderOperation.m in Sources */,
+				80E44AD9265E37590013F216 /* UIImageView+HighlightedWebCache.m in Sources */,
+				80E44ACD265E37590013F216 /* MASCompositeConstraint.m in Sources */,
+				80E44A4E265E373A0013F216 /* UIImage+CYLTabBarControllerExtention.m in Sources */,
+				80E44A81265E37520013F216 /* NSObject+EasyKVO.m in Sources */,
+				80E44AD2265E37590013F216 /* MASConstraint.m in Sources */,
+				80E44ADD265E37590013F216 /* SDWebImageCompat.m in Sources */,
+				80E44AE2265E37590013F216 /* UIImageView+WebCache.m in Sources */,
+				80E44ADA265E37590013F216 /* SDWebImageDownloader.m in Sources */,
+				80E44A4B265E373A0013F216 /* CYLTabBar+CYLTabBarControllerExtention.m in Sources */,
+				80E44A7D265E37520013F216 /* EasyNavigationOptions.m in Sources */,
+				80E44AD1265E37590013F216 /* View+MASAdditions.m in Sources */,
+				80E44A50265E373A0013F216 /* CYLBaseViewController.m in Sources */,
+				80E44AD5265E37590013F216 /* UIImage+WebP.m in Sources */,
 				80E449DD265E2ED90013F216 /* ViewController.m in Sources */,
+				80E44A8B265E37520013F216 /* EasyNavigationView+Scroll.m in Sources */,
+				80E44A80265E37520013F216 /* UITableViewController+EasyNavigationExt.m in Sources */,
 				80E449D7265E2ED90013F216 /* AppDelegate.m in Sources */,
+				80E44AD3265E37590013F216 /* MASViewConstraint.m in Sources */,
+				80E44A86265E37520013F216 /* EasyNavigationUtils.m in Sources */,
+				80E44A44265E373A0013F216 /* NSObject+CYLTabBarControllerExtention.m in Sources */,
+				80E44A52265E373A0013F216 /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
+				80E44ADC265E37590013F216 /* UIImage+MultiFormat.m in Sources */,
+				80E44AD0265E37590013F216 /* NSArray+MASAdditions.m in Sources */,
+				80E44A88265E37520013F216 /* EasyNavigationView+RightButton.m in Sources */,
+				80E44A82265E37520013F216 /* EasyKVOInfo.m in Sources */,
+				80E44AD6265E37590013F216 /* MKAnnotationView+WebCache.m in Sources */,
+				80E44A48265E373A0013F216 /* UITabBarItem+CYLBadgeExtention.m in Sources */,
+				80E44AEB265E37990013F216 /* FileManager.mm in Sources */,
+				80E44A41265E373A0013F216 /* CYLBaseTableViewController.m in Sources */,
+				80E44A7C265E37520013F216 /* EasyNavigationController.m in Sources */,
+				80E44AE4265E37590013F216 /* UIButton+WebCache.m in Sources */,
+				80E44A51265E373A0013F216 /* UIControl+CYLTabBarControllerExtention.m in Sources */,
+				80E44A83265E37520013F216 /* UIView+EasyNavigationExt.m in Sources */,
+				80E44ADB265E37590013F216 /* UIImage+GIF.m in Sources */,
+				80E44A4D265E373A0013F216 /* CYLPlusButton.m in Sources */,
 				80E449E8265E2EDC0013F216 /* main.m in Sources */,
+				80E44AD4265E37590013F216 /* MASViewAttribute.m in Sources */,
+				80E44A47265E373A0013F216 /* CYLBaseNavigationController.m in Sources */,
+				80E44A85265E37520013F216 /* UIViewController+EasyNavigationExt.m in Sources */,
+				80E44ACC265E37590013F216 /* ViewController+MASAdditions.m in Sources */,
+				80E44ACB265E37590013F216 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				80E44A49265E373A0013F216 /* UIView+CYLBadgeExtention.m in Sources */,
+				80E44A7E265E37520013F216 /* EasyNavigationScroll.m in Sources */,
+				80E44A4C265E373A0013F216 /* CYLTabBar.m in Sources */,
+				80E44A46265E373A0013F216 /* CYLTabBarController.m in Sources */,
+				80E44A8A265E37520013F216 /* EasyNavigationButton.m in Sources */,
+				80E44AE3265E37590013F216 /* UIView+WebCacheOperation.m in Sources */,
+				80E44A4A265E373A0013F216 /* CAAnimation+CYLBadgeExtention.m in Sources */,
+				80E44ACE265E37590013F216 /* MASConstraintMaker.m in Sources */,
+				80E44ACF265E37590013F216 /* MASLayoutConstraint.m in Sources */,
+				80E44ADF265E37590013F216 /* SDImageCache.m in Sources */,
+				80E44A7B265E37520013F216 /* EasyNavigationView+Add.m in Sources */,
+				80E44A7F265E37520013F216 /* EasyNavigationView.m in Sources */,
+				80E44A45265E373A0013F216 /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */,
+				80E44A42265E373A0013F216 /* UIColor+CYLTabBarControllerExtention.m in Sources */,
+				80E44A43265E373A0013F216 /* UIView+CYLTabBarControllerExtention.m in Sources */,
+				80E44A87265E37520013F216 /* EasyNavigationView+LeftButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
