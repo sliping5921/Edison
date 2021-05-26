@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		216CCBE1265E3B690023BE10 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 216CCBD6265E3B690023BE10 /* FMDatabaseQueue.m */; };
+		216CCBE2265E3B690023BE10 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 216CCBD9265E3B690023BE10 /* FMDatabaseAdditions.m */; };
+		216CCBE3265E3B690023BE10 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 216CCBDA265E3B690023BE10 /* FMDatabase.m */; };
+		216CCBE4265E3B690023BE10 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 216CCBDE265E3B690023BE10 /* FMDatabasePool.m */; };
+		216CCBE5265E3B690023BE10 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 216CCBDF265E3B690023BE10 /* FMResultSet.m */; };
+		216CCBE6265E3B690023BE10 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 216CCBE0265E3B690023BE10 /* Info.plist */; };
 		80E449D7265E2ED90013F216 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E449D6265E2ED90013F216 /* AppDelegate.m */; };
 		80E449E0265E2ED90013F216 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80E449DE265E2ED90013F216 /* Main.storyboard */; };
 		80E449E2265E2EDC0013F216 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80E449E1265E2EDC0013F216 /* Assets.xcassets */; };
@@ -103,6 +109,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		216CCBD5265E3B690023BE10 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		216CCBD6265E3B690023BE10 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		216CCBD7265E3B690023BE10 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		216CCBD8265E3B690023BE10 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		216CCBD9265E3B690023BE10 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		216CCBDA265E3B690023BE10 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		216CCBDB265E3B690023BE10 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		216CCBDC265E3B690023BE10 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		216CCBDD265E3B690023BE10 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		216CCBDE265E3B690023BE10 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		216CCBDF265E3B690023BE10 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		216CCBE0265E3B690023BE10 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80E449D2265E2ED90013F216 /* 起名大全.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "起名大全.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E449D5265E2ED90013F216 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		80E449D6265E2ED90013F216 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -291,6 +309,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		216CCBD4265E3B690023BE10 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				216CCBD5265E3B690023BE10 /* FMDatabase.h */,
+				216CCBD6265E3B690023BE10 /* FMDatabaseQueue.m */,
+				216CCBD7265E3B690023BE10 /* FMResultSet.h */,
+				216CCBD8265E3B690023BE10 /* FMDatabasePool.h */,
+				216CCBD9265E3B690023BE10 /* FMDatabaseAdditions.m */,
+				216CCBDA265E3B690023BE10 /* FMDatabase.m */,
+				216CCBDB265E3B690023BE10 /* FMDatabaseQueue.h */,
+				216CCBDC265E3B690023BE10 /* FMDB.h */,
+				216CCBDD265E3B690023BE10 /* FMDatabaseAdditions.h */,
+				216CCBDE265E3B690023BE10 /* FMDatabasePool.m */,
+				216CCBDF265E3B690023BE10 /* FMResultSet.m */,
+				216CCBE0265E3B690023BE10 /* Info.plist */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
 		80E449C9265E2ED90013F216 = {
 			isa = PBXGroup;
 			children = (
@@ -354,6 +391,7 @@
 		80E44A16265E36E20013F216 /* Edi_Ku */ = {
 			isa = PBXGroup;
 			children = (
+				216CCBD4265E3B690023BE10 /* fmdb */,
 				80E44AE8265E37990013F216 /* FileMannger */,
 				80E44A8F265E37590013F216 /* Masonry */,
 				80E44AA9265E37590013F216 /* SDWebImage */,
@@ -706,6 +744,7 @@
 				80E449E5265E2EDC0013F216 /* LaunchScreen.storyboard in Resources */,
 				80E449E2265E2EDC0013F216 /* Assets.xcassets in Resources */,
 				80E449E0265E2ED90013F216 /* Main.storyboard in Resources */,
+				216CCBE6265E3B690023BE10 /* Info.plist in Resources */,
 				80E44A89265E37520013F216 /* EasyNavButton.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -741,6 +780,7 @@
 				80E44AE0265E37590013F216 /* SDWebImageDownloaderOperation.m in Sources */,
 				80E44AD9265E37590013F216 /* UIImageView+HighlightedWebCache.m in Sources */,
 				80E44ACD265E37590013F216 /* MASCompositeConstraint.m in Sources */,
+				216CCBE2265E3B690023BE10 /* FMDatabaseAdditions.m in Sources */,
 				80E44A4E265E373A0013F216 /* UIImage+CYLTabBarControllerExtention.m in Sources */,
 				80E44A81265E37520013F216 /* NSObject+EasyKVO.m in Sources */,
 				80E44AD2265E37590013F216 /* MASConstraint.m in Sources */,
@@ -773,13 +813,19 @@
 				80E44AE4265E37590013F216 /* UIButton+WebCache.m in Sources */,
 				80E44A51265E373A0013F216 /* UIControl+CYLTabBarControllerExtention.m in Sources */,
 				80E44A83265E37520013F216 /* UIView+EasyNavigationExt.m in Sources */,
+<<<<<<< HEAD
 				80E44AFB265E39F10013F216 /* Edi_Tablebar.m in Sources */,
+=======
+				216CCBE1265E3B690023BE10 /* FMDatabaseQueue.m in Sources */,
+>>>>>>> b34240e57035782764efcb5b31e6f0c4a4198665
 				80E44ADB265E37590013F216 /* UIImage+GIF.m in Sources */,
+				216CCBE5265E3B690023BE10 /* FMResultSet.m in Sources */,
 				80E44A4D265E373A0013F216 /* CYLPlusButton.m in Sources */,
 				80E449E8265E2EDC0013F216 /* main.m in Sources */,
 				80E44AD4265E37590013F216 /* MASViewAttribute.m in Sources */,
 				80E44A47265E373A0013F216 /* CYLBaseNavigationController.m in Sources */,
 				80E44A85265E37520013F216 /* UIViewController+EasyNavigationExt.m in Sources */,
+				216CCBE4265E3B690023BE10 /* FMDatabasePool.m in Sources */,
 				80E44ACC265E37590013F216 /* ViewController+MASAdditions.m in Sources */,
 				80E44ACB265E37590013F216 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				80E44B16265E3C3E0013F216 /* Edi_JmVC.m in Sources */,
@@ -787,7 +833,11 @@
 				80E44A7E265E37520013F216 /* EasyNavigationScroll.m in Sources */,
 				80E44A4C265E373A0013F216 /* CYLTabBar.m in Sources */,
 				80E44A46265E373A0013F216 /* CYLTabBarController.m in Sources */,
+<<<<<<< HEAD
 				80E44B0C265E3C320013F216 /* Edi_QmVC.m in Sources */,
+=======
+				216CCBE3265E3B690023BE10 /* FMDatabase.m in Sources */,
+>>>>>>> b34240e57035782764efcb5b31e6f0c4a4198665
 				80E44A8A265E37520013F216 /* EasyNavigationButton.m in Sources */,
 				80E44AE3265E37590013F216 /* UIView+WebCacheOperation.m in Sources */,
 				80E44A4A265E373A0013F216 /* CAAnimation+CYLBadgeExtention.m in Sources */,
