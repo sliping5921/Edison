@@ -7,7 +7,10 @@
 
 #import "Edi_WdVC.h"
 
-@interface Edi_WdVC ()
+@interface Edi_WdVC ()<UITableViewDelegate,UITableViewDataSource>
+@property (strong, nonatomic) UITableView *EdiwdTabview;
+@property (nonatomic, strong) UIView *EdiwdHeader;
+@property (nonatomic, strong) UIImageView *Ediwdimg;
 
 @end
 
