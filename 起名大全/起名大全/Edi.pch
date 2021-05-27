@@ -16,7 +16,7 @@
 #import "FileManager.h"
 #import "EasyNavigation.h"
 #import "CYLTabBarController.h"
-
+#import "SDAutoLayout.h"
 
 
 #define WIDTH SCREEN_WIDTH/374
